@@ -14,8 +14,18 @@ bikes = [
   MountainBike.new
 ]
 
+
 road_bike = RoadBike.new
 road_bike.clean
+road_bike.lubricate_gears
+
+bmx_bike = BmxBike.new
+bmx_bike.clean 
+bmx_bike.adjust_seat
+
+mountain_bike = MountainBike.new
+mountain_bike.clean 
+mountain_bike.adjust_suspension
 
 total_price = 0
 total_price += bikes[0].weekly_rate
