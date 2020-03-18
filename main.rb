@@ -14,6 +14,9 @@ bikes = [
   MountainBike.new
 ]
 
+road_bike = RoadBike.new
+road_bike.clean
+
 total_price = 0
 total_price += bikes[0].weekly_rate
 total_price += bikes[0].tail_pack.cost
